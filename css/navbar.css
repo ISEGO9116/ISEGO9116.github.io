@@ -1,0 +1,35 @@
+
+
+/*첫번째 박스*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #95c100;
+    padding: 25px 50px;
+}
+
+.navbar_logo{
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar_logo a {
+    font-size: 30px;
+}
+
+.navbar_menu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar_menu li{
+    padding: 8px 30px;
+    font-size: px;
+}

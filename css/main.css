@@ -1,0 +1,43 @@
+body{
+    margin: 0; /*가장 큰 box인 body의 margin(바깥쪽 공간)을 없앤다*/
+    background-color: #fff;
+}
+
+body p {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+@keyframes move {
+    from {
+        opacity: 0; 
+        transform: translate3d(0, 100%, 0);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
+        /*베지어 곡선을 이용한 애니메이션 스무딩.*/
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+.smooth_in {
+    position: relative;
+    animation: move 0.6s;
+}
+
+.kotori_beige{
+    color: #d3cec4;
+}
+
+.kotori_beige_background{
+    background-color: #d3cec4;
+}
+
+.margin_off{
+    margin: 0;
+}
+
+.padding_off{
+    padding: 0;
+}
